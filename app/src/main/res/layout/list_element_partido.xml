@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="7dp"
+        app:cardCornerRadius="5dp"
+        app:cardUseCompatPadding="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Partido: "
+                tools:ignore="MissingConstraints" tools:layout_editor_absoluteY="-1dp"
+                tools:layout_editor_absoluteX="16dp"/>
+        <TextView
+                android:id="@+id/id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" tools:layout_editor_absoluteY="0dp" tools:layout_editor_absoluteX="70dp"/>
+
+        <TextView
+                android:id="@+id/team1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/teama" tools:layout_editor_absoluteY="19dp"
+                tools:layout_editor_absoluteX="102dp" tools:ignore="MissingConstraints"/>
+
+        <TextView
+                android:id="@+id/team2"
+                android:layout_width="41dp"
+                android:layout_height="19dp"
+                android:text="@string/teamb" tools:layout_editor_absoluteY="19dp"
+                tools:layout_editor_absoluteX="272dp" tools:ignore="MissingConstraints"/>
+
+        <TextView
+                android:layout_width="41dp"
+                android:layout_height="46dp"
+                android:id="@+id/scorea"
+                android:text="@string/score" tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="102dp"
+                android:textSize="40dp"
+                android:paddingLeft="10dp" tools:ignore="MissingConstraints"/>
+        <TextView
+                android:layout_width="41dp"
+                android:layout_height="46dp"
+                android:id="@+id/scoreb"
+                android:text="@string/score" tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="272dp"
+                android:textSize="40dp"
+                android:paddingLeft="10dp" tools:ignore="MissingConstraints"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="VS" tools:layout_editor_absoluteY="37dp" tools:layout_editor_absoluteX="193dp"
+                android:textSize="30dp" tools:ignore="MissingConstraints"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/date"
+                  android:text="@string/date"
+                  tools:layout_editor_absoluteY="92dp" tools:layout_editor_absoluteX="9dp"
+                  tools:ignore="MissingConstraints"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/hour"
+                  android:text="00:00:00" tools:layout_editor_absoluteY="91dp" tools:layout_editor_absoluteX="88dp"
+                  tools:ignore="MissingConstraints"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

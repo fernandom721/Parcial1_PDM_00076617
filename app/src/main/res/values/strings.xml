@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BasketDex</string>
+    <string name="teama">teamA</string>
+    <string name="teamb">teamb</string>
+    <string name="score">0</string>
+    <string name="date">00/00/00</string>
+</resources>
